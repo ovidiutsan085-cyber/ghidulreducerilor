@@ -1,0 +1,25 @@
+# 1) Init + remote
+git init
+git branch -M main
+git remote add origin https://github.com/ovidiutsan085-cyber/ghidulreducerilor.git 2>/dev/null || \
+git remote set-url origin https://github.com/ovidiutsan085-cyber/ghidulreducerilor.git
+
+# 2) Identitate Git (ignorat dacă e deja setată)
+git config --global user.name 2>/dev/null >/dev/null || git config --global user.name "User"
+git config --global user.email 2>/dev/null >/dev/null || git config --global user.email "user@example.com"
+
+# 3) Commit + push (suprascriem istoricul vechi din repo cu proiectul actual)
+git add .
+git commit -m "Deploy React app + GitHub Pages workflow" || echo "Nimic de commit."
+git push -u origin main --force-with-lease
+
+# 4) GitHub CLI: autentificare (dacă nu ești deja)
+gh auth status || gh auth login
+
+# 5) Activează GitHub Pages (build din GitHub Actions) + setează domeniul
+gh api repos/ovidiutsan085-cyber/ghidulreducerilor/pages -X POST -f build_type=workflow >/dev/null 2>&1 || \
+gh api repos/ovidiutsan085-cyber/ghidulreducerilor/pages -X PUT  -f build_type=workflow
+
+gh api repos/ovidiutsan085-cyber/ghidulreducerilor/pages -X PUT -f cname="ghidulreducerilor.ro" >/dev/null || true
+
+echo "Gata! Verifica Actions (deploy) si URL-ul repo-ului pe GitHub Pages."
