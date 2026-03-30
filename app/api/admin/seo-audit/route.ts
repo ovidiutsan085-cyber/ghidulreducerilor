@@ -7,7 +7,7 @@ const execAsync = promisify(exec)
 const ROOT = path.join(process.cwd())
 
 function isAuthorized(req: NextRequest): boolean {
-  const token = req.headers.get('x-admin-token') || req.nextUrl.searchParams.get('token')
+  const token = req.headers.get('x-admin-token')
   return token === process.env.ADMIN_SECRET_TOKEN
 }
 
@@ -38,7 +38,6 @@ export async function GET(req: NextRequest) {
     const content = await fs.readFile(latestFile, 'utf-8')
     const report = JSON.parse(content)
 
-    // Returnează un rezumat (nu tot raportul care poate fi mare)
     return NextResponse.json({
       status: 'ok',
       latest_report: seoFiles[0],
@@ -68,11 +67,6 @@ export async function GET(req: NextRequest) {
   }
 }
 
-/**
- * POST /api/admin/seo-audit
- * Lansează auditul SEO
- * Body: { mode: 'full' | 'quick', url?: string }
- */
 export async function POST(req: NextRequest) {
   if (!isAuthorized(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -84,42 +78,18 @@ export async function POST(req: NextRequest) {
 
   try {
     const scriptPath = path.join(ROOT, 'scripts', 'seo_audit.py')
-    const args = [
-      url ? `--url "${url}"` : `--mode ${mode}`
-    ].join(' ')
-
+    const args = [url ? `--url "${url}"` : `--mode ${mode}`].join(' ')
     const command = `python "${scriptPath}" ${args}`
 
     const startTime = Date.now()
-    const { stdout, stderr } = await execAsync(command, {
-      cwd: ROOT,
-      timeout: 120000,
-      env: { ...process.env }
-    })
-
+    const { stdout, stderr } = await execAsync(command, { cwd: ROOT, timeout: 120000, env: { ...process.env } })
     const elapsed = Date.now() - startTime
 
-    // Extrage score mediu din output
     const scoreMatch = stdout.match(/Scor mediu: ([\d.]+)/)
     const issuesMatch = stdout.match(/Total issues: (\d+)/)
 
-    return NextResponse.json({
-      status: 'ok',
-      mode,
-      url,
-      elapsed_ms: elapsed,
-      summary: {
-        avg_score: scoreMatch ? parseFloat(scoreMatch[1]) : null,
-        total_issues: issuesMatch ? parseInt(issuesMatch[1]) : null
-      },
-      output: stdout.slice(0, 800),
-      errors: stderr ? stderr.slice(0, 200) : null
-    })
-
+    return NextResponse.json({ status: 'ok', mode, url, elapsed_ms: elapsed, summary: { avg_score: scoreMatch ? parseFloat(scoreMatch[1]) : null, total_issues: issuesMatch ? parseInt(issuesMatch[1]) : null }, output: stdout.slice(0, 800), errors: stderr ? stderr.slice(0, 200) : null })
   } catch (error: any) {
-    return NextResponse.json({
-      error: 'SEO audit error',
-      details: error.message?.slice(0, 300)
-    }, { status: 500 })
+    return NextResponse.json({ error: 'SEO audit error', details: error.message?.slice(0, 300) }, { status: 500 })
   }
 }
