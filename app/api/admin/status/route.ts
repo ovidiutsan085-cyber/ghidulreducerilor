@@ -70,7 +70,7 @@ export async function GET(req: NextRequest) {
   // ===== Logs Status =====
   try {
     const logsDir = path.join(ROOT, 'logs')
-    const logFiles = await fs.readdir(logsDir).catch(() => [])
+    const logFiles = await fs.readdir(logsDir).catch(() => [] as string[])
 
     const today = new Date().toISOString().split('T')[0].replace(/-/g, '')
 
