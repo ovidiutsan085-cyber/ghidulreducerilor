@@ -1,0 +1,134 @@
+[
+  {
+    "id": "emag",
+    "nume": "eMAG",
+    "slug": "emag",
+    "descriere": "eMAG este cel mai mare retailer online din Romania, cu o gama variata de produse: electronice, electrocasnice, IT, fashion, jucarii si multe altele. Fondat in 2001, eMAG ofera livrare rapida prin easybox si retur gratuit in 30 de zile.",
+    "logo_emoji": "🛒",
+    "culoare": "#F7E636",
+    "categorie_principala": "electronice",
+    "url_site": "https://www.emag.ro",
+    "comision_mediu": "1-20%"
+  },
+  {
+    "id": "fashion-days",
+    "nume": "Fashion Days",
+    "slug": "fashion-days",
+    "descriere": "Fashion Days este platforma #1 de moda online din Romania. Cu peste 1000 de branduri internationale si romanesti, Fashion Days ofera reduceri permanente de pana la 70% la imbracaminte, incaltaminte si accesorii pentru femei, barbati si copii.",
+    "logo_emoji": "👗",
+    "culoare": "#FF69B4",
+    "categorie_principala": "fashion",
+    "url_site": "https://www.fashiondays.ro",
+    "comision_mediu": "1-5%"
+  },
+  {
+    "id": "vexio",
+    "nume": "Vexio",
+    "slug": "vexio",
+    "descriere": "Vexio.ro este un magazin online de IT&C cu o gama larga de laptopuri, componente PC, periferice, telefoane si gadgeturi. Ofera preturi competitive, livrare rapida si garantie extinsa. EPC-ul ridicat il face unul dintre cele mai profitabile magazine din Romania.",
+    "logo_emoji": "💻",
+    "culoare": "#6C63FF",
+    "categorie_principala": "IT",
+    "url_site": "https://www.vexio.ro",
+    "comision_mediu": "2%"
+  },
+  {
+    "id": "libris",
+    "nume": "Libris",
+    "slug": "libris",
+    "descriere": "Libris.ro este una dintre cele mai mari librarii online din Romania, cu peste 200.000 de titluri de carti in stoc permanent. Ofera transport gratuit la comenzi peste 75 lei, reduceri de pana la 70% si livrare rapida. Comision generos de 8% pentru afiliati.",
+    "logo_emoji": "📚",
+    "culoare": "#E85D2A",
+    "categorie_principala": "carti",
+    "url_site": "https://www.libris.ro",
+    "comision_mediu": "8%"
+  },
+  {
+    "id": "fornello",
+    "nume": "Fornello",
+    "slug": "fornello",
+    "descriere": "Fornello.ro este magazinul online specializat in seminee, sobe, cosuri de fum si accesorii pentru incalzire. Ofera produse premium pentru casa ta, cu livrare in toata Romania si consiliere gratuita de la specialisti.",
+    "logo_emoji": "🔥",
+    "culoare": "#D4451A",
+    "categorie_principala": "casa",
+    "url_site": "https://www.fornello.ro",
+    "comision_mediu": "3%"
+  },
+  {
+    "id": "forit",
+    "nume": "ForIT",
+    "slug": "forit",
+    "descriere": "ForIT.ro este un magazin online de IT, electronice si electrocasnice cu preturi competitive. Ofera laptopuri Apple, Lenovo, HP si Dell, monitoare, periferice si echipamente de retea. Livrare rapida in toata Romania si plata in rate prin Leanpay.",
+    "logo_emoji": "🖥️",
+    "culoare": "#00B4D8",
+    "categorie_principala": "IT",
+    "url_site": "https://www.forit.ro",
+    "comision_mediu": "2%"
+  },
+  {
+    "id": "notino",
+    "nume": "Notino",
+    "slug": "notino",
+    "descriere": "Notino.ro este cel mai mare magazin online de parfumuri si cosmetice din Romania. Ofera peste 100.000 de produse originale: parfumuri, creme, machiaj, ingrijire par si corp. Livrare gratuita la comenzi peste 200 lei, cadouri si mostre la fiecare comanda.",
+    "logo_emoji": "🌸",
+    "culoare": "#C8A2C8",
+    "categorie_principala": "cosmetice",
+    "url_site": "https://www.notino.ro",
+    "comision_mediu": "5-8%"
+  },
+  {
+    "id": "answear",
+    "nume": "Answear",
+    "slug": "answear",
+    "descriere": "Answear.ro este un magazin de moda online cu peste 300 de branduri internationale: Nike, Adidas, Tommy Hilfiger, Calvin Klein si multe altele. Reduceri permanente de pana la 70%, livrare gratuita si retur gratuit in 100 de zile.",
+    "logo_emoji": "👟",
+    "culoare": "#FF4D6D",
+    "categorie_principala": "fashion",
+    "url_site": "https://www.answear.ro",
+    "comision_mediu": "5-10%"
+  },
+  {
+    "id": "catena",
+    "nume": "Catena",
+    "slug": "catena",
+    "descriere": "Catena este cel mai mare lant de farmacii din Romania, cu peste 600 de locatii si un magazin online complet. Ofera medicamente OTC, suplimente alimentare, cosmetice farmaceutice si produse pentru bebelusi la preturi avantajoase, cu livrare rapida.",
+    "logo_emoji": "💊",
+    "culoare": "#00A86B",
+    "categorie_principala": "farmacie",
+    "url_site": "https://www.catena.ro",
+    "comision_mediu": "4-8%"
+  },
+  {
+    "id": "decathlon",
+    "nume": "Decathlon",
+    "slug": "decathlon",
+    "descriere": "Decathlon Romania este destinatia numarul 1 pentru articole sportive. Cu peste 80 de sporturi acoperite si branduri proprii (Quechua, Domyos, Kipsta), ofera echipamente de calitate la preturi accesibile pentru ciclism, fitness, hiking, fotbal si multe altele.",
+    "logo_emoji": "🏃",
+    "culoare": "#0082C8",
+    "categorie_principala": "sport",
+    "url_site": "https://www.decathlon.ro",
+    "comision_mediu": "3-6%"
+  },
+  {
+    "id": "cel",
+    "nume": "Cel.ro",
+    "slug": "cel",
+    "descriere": "Cel.ro este unul dintre cele mai vechi si de incredere magazine online de IT din Romania. Ofera laptopuri, telefoane, tablete, componente PC, electronice si electrocasnice la preturi competitive, cu garantie si service autorizat.",
+    "logo_emoji": "📱",
+    "culoare": "#FF6B00",
+    "categorie_principala": "IT",
+    "url_site": "https://www.cel.ro",
+    "comision_mediu": "2-4%"
+  },
+  {
+    "id": "pcgarage",
+    "nume": "PC Garage",
+    "slug": "pcgarage",
+    "descriere": "PC Garage este cel mai mare magazin online specializat in componente PC, periferice gaming si electrocasnice din Romania. Destinatia preferata a gamerilor si pasionatilor de IT, cu stoc permanent si preturi imbatabile la placi video, procesoare si memorii RAM.",
+    "logo_emoji": "🎮",
+    "culoare": "#E63946",
+    "categorie_principala": "IT",
+    "url_site": "https://www.pcgarage.ro",
+    "comision_mediu": "2-3%"
+  }
+]
