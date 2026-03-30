@@ -1,0 +1,55 @@
+name: 🔗 Verificare Linkuri Afiliate
+
+on:
+  schedule:
+    # 20:00 UTC = 22:00 România — după raport zilnic
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Mod verificare'
+        required: false
+        default: 'quick'
+        type: choice
+        options:
+          - quick
+          - full
+
+jobs:
+  link-check:
+    name: Link Checker
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: 📁 Creare directoare
+        run: mkdir -p logs
+
+      - name: 🔍 Verificare linkuri
+        run: |
+          MODE="${{ github.event.inputs.mode || 'quick' }}"
+          python scripts/link_checker.py --mode $MODE
+
+      - name: 💾 Commit deals actualizate (link status)
+        run: |
+          git config user.name "GhidulReducerilor Bot"
+          git config user.email "bot@ghidulreducerilor.ro"
+          git add data/deals.json
+          git diff --staged --quiet || git commit -m "🔗 Link check $(date +%Y-%m-%d)"
+
+      - name: 📤 Push
+        run: git push

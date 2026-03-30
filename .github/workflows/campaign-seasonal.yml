@@ -1,0 +1,44 @@
+name: 🎯 Campanii Sezoniere
+
+on:
+  schedule:
+    # Verificare zilnică: 05:30 UTC = 07:30 România
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Sezon forțat (opțional)'
+        required: false
+        type: string
+
+jobs:
+  campaign:
+    name: Seasonal Campaign
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: 📁 Creare directoare
+        run: mkdir -p logs data/campaigns
+
+      - name: 🎯 Generare campanie
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.season }}" ]; then
+            python scripts/campaign_creator.py --season ${{ github.event.inputs.season }}
+          else
+            python scripts/campaign_creator.py --auto
+          fi

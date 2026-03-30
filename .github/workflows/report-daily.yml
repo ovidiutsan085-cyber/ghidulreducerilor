@@ -1,0 +1,67 @@
+name: 📊 Raport Zilnic + SEO Audit
+
+on:
+  schedule:
+    # Raport zilnic: 20:00 UTC = 22:00 România
+    - cron: '0 20 * * *'
+    # SEO Audit săptămânal: Luni 05:00 UTC = 07:00 România
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+    inputs:
+      send_email:
+        description: 'Trimite raport pe email'
+        required: false
+        default: true
+        type: boolean
+      run_seo:
+        description: 'Rulează și SEO audit'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  daily-report:
+    name: Daily Report
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: 📁 Creare directoare
+        run: mkdir -p logs
+
+      - name: 📊 Generare raport zilnic
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          REPORT_EMAIL: ${{ vars.REPORT_EMAIL }}
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          EMAIL_FLAG=""
+          if [ "${{ github.event.inputs.send_email }}" != "false" ]; then
+            EMAIL_FLAG="--send-email"
+          fi
+          python scripts/report_daily.py --date $TODAY $EMAIL_FLAG
+
+      - name: 🔍 SEO Audit (Luni sau manual)
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: |
+          DAY=$(date +%u)
+          RUN_SEO="${{ github.event.inputs.run_seo }}"
+          if [ "$DAY" = "1" ] || [ "$RUN_SEO" = "true" ]; then
+            echo "Rulare SEO Audit săptămânal..."
+            python scripts/seo_audit.py --mode quick
+          else
+            echo "SEO Audit — skip (nu e Luni)"
+          fi

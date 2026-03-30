@@ -1,0 +1,65 @@
+name: 📧 Newsletter Automat
+
+on:
+  schedule:
+    # Zilnic: 06:00 UTC = 08:00 România
+    - cron: '0 6 * * *'
+    # Săptămânal vineri: 07:00 UTC = 09:00 România
+    - cron: '0 7 * * 5'
+  workflow_dispatch:
+    inputs:
+      type:
+        description: 'Tip newsletter'
+        required: false
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - weekly
+      dry_run:
+        description: 'Dry run (nu trimite)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  newsletter:
+    name: Send Newsletter
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: 📁 Creare directoare necesare
+        run: mkdir -p logs
+
+      - name: 📧 Trimitere newsletter
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ vars.BREVO_LIST_ID }}
+        run: |
+          # Determină tipul pe baza zilei (vineri = weekly)
+          DAY=$(date +%u)
+          if [ "$DAY" = "5" ] && [ -z "${{ github.event.inputs.type }}" ]; then
+            TYPE="weekly"
+          else
+            TYPE="${{ github.event.inputs.type || 'daily' }}"
+          fi
+
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+
+          python scripts/newsletter.py --type $TYPE $DRY_RUN_FLAG

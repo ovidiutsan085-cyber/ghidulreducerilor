@@ -1,0 +1,75 @@
+name: 📱 Social Media Posts
+
+on:
+  schedule:
+    # Dimineață: 07:00 UTC = 09:00 România
+    - cron: '0 7 * * *'
+    # Prânz (L-V): 13:00 UTC = 15:00 România
+    - cron: '0 13 * * 1-5'
+    # Seară: 18:00 UTC = 20:00 România
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      session:
+        description: 'Sesiune postare'
+        required: false
+        default: 'morning'
+        type: choice
+        options:
+          - morning
+          - afternoon
+          - evening
+      dry_run:
+        description: 'Dry run (nu postează)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  social-post:
+    name: Social Media Post
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: 📁 Creare directoare
+        run: mkdir -p logs data
+
+      - name: 📱 Postare social media
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_ACCESS_TOKEN: ${{ secrets.FB_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          # Determină sesiunea pe baza orei UTC
+          HOUR=$(date +%H)
+          if [ -n "${{ github.event.inputs.session }}" ]; then
+            SESSION="${{ github.event.inputs.session }}"
+          elif [ "$HOUR" = "07" ]; then
+            SESSION="morning"
+          elif [ "$HOUR" = "13" ]; then
+            SESSION="afternoon"
+          else
+            SESSION="evening"
+          fi
+
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+
+          echo "Sesiune: $SESSION"
+          python scripts/social_media_poster.py --session $SESSION $DRY_RUN_FLAG

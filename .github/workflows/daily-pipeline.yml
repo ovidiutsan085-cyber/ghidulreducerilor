@@ -1,0 +1,65 @@
+name: 🔄 Pipeline Zilnic — Scraping + Publicare
+
+on:
+  schedule:
+    # 04:00 UTC = 06:00 România
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Mod rulare'
+        required: false
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - cleanup
+
+jobs:
+  pipeline:
+    name: Daily Pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: 📁 Creare directoare necesare
+        run: mkdir -p logs data/raw data/processed data/backups data/price_history
+
+      - name: 🚀 Rulare pipeline
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ vars.BREVO_LIST_ID }}
+          PROFITSHARE_API_KEY: ${{ secrets.PROFITSHARE_API_KEY }}
+          PROFITSHARE_AFFILIATE_ID: ${{ vars.PROFITSHARE_AFFILIATE_ID }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'full' }}"
+          python scripts/daily_pipeline.py --mode $MODE
+
+      - name: 🔍 Validare prețuri Omnibus
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python scripts/price_validator.py --mode update
+
+      - name: 💾 Commit modificări deals.json
+        run: |
+          git config user.name "GhidulReducerilor Bot"
+          git config user.email "bot@ghidulreducerilor.ro"
+          git add data/deals.json data/codes.json
+          git diff --staged --quiet || git commit -m "🤖 Auto-update deals $(date +%Y-%m-%d)"
+
+      - name: 📤 Push la GitHub (trigger Vercel redeploy)
+        run: git push
