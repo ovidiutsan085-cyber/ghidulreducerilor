@@ -8,7 +8,7 @@ const ROOT = path.join(process.cwd())
 
 // Verificare token admin
 function isAuthorized(req: NextRequest): boolean {
-  const token = req.headers.get('x-admin-token') || req.nextUrl.searchParams.get('token')
+  const token = req.headers.get('x-admin-token')
   return token === process.env.ADMIN_SECRET_TOKEN
 }
 
