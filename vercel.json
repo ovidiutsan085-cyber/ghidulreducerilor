@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/sitemap-ping",
+      "schedule": "0 5 * * *"
+    }
+  ]
+}
