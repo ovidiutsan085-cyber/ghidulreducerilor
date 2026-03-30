@@ -7,7 +7,7 @@ const execAsync = promisify(exec)
 const ROOT = path.join(process.cwd())
 
 function isAuthorized(req: NextRequest): boolean {
-  const token = req.headers.get('x-admin-token') || req.nextUrl.searchParams.get('token')
+  const token = req.headers.get('x-admin-token')
   return token === process.env.ADMIN_SECRET_TOKEN
 }
 
@@ -33,12 +33,14 @@ export async function GET(req: NextRequest) {
       env: { ...process.env }
     })
 
+    // Încearcă să citească HTML-ul generat
     const fs = await import('fs/promises')
     let htmlContent = null
     try {
       htmlContent = await fs.readFile(outputFile, 'utf-8')
     } catch {}
 
+    // Extrage subject din output
     const subjectMatch = stdout.match(/Subject: (.+)/)
     const subject = subjectMatch ? subjectMatch[1] : null
     const htmlLengthMatch = stdout.match(/Lungime HTML: (\d+)/)
