@@ -1,0 +1,108 @@
+{
+  "keywords_principale": [
+    "reduceri online romania",
+    "coduri reducere romania",
+    "oferte online romania",
+    "reduceri emag",
+    "reduceri fashiondays",
+    "cod reducere emag",
+    "cod reducere fashiondays",
+    "reduceri notino",
+    "cod reducere notino",
+    "reduceri answear",
+    "reduceri decathlon",
+    "reduceri drmax",
+    "reduceri pcgarage",
+    "ghid reduceri",
+    "oferte reduceri azi"
+  ],
+  "keywords_sezoniere": {
+    "black_friday": [
+      "black friday romania 2026",
+      "black friday emag 2026",
+      "oferte black friday 2026",
+      "reduceri black friday 2026",
+      "black friday fashiondays 2026"
+    ],
+    "paste": [
+      "reduceri paste 2026",
+      "oferte paste 2026",
+      "promotii paste 2026"
+    ],
+    "craciun": [
+      "reduceri craciun 2026",
+      "oferte craciun 2026",
+      "cadouri reducere craciun 2026"
+    ],
+    "back_to_school": [
+      "reduceri back to school 2026",
+      "oferte rechizite scoala 2026",
+      "reduceri laptopuri scoala 2026"
+    ],
+    "summer_sales": [
+      "reduceri vara 2026",
+      "solde vara 2026",
+      "reduceri fashion vara 2026"
+    ]
+  },
+  "keywords_categorii": {
+    "electronice": [
+      "reduceri telefoane",
+      "reduceri laptopuri",
+      "reduceri tablete",
+      "reduceri smartwatch",
+      "reduceri casti wireless",
+      "cel mai ieftin iphone",
+      "cel mai ieftin samsung galaxy"
+    ],
+    "fashion": [
+      "reduceri haine femei",
+      "reduceri haine barbati",
+      "reduceri incaltaminte",
+      "reduceri genti",
+      "outlet fashion online"
+    ],
+    "beauty": [
+      "reduceri parfumuri",
+      "reduceri cosmetice",
+      "reduceri creme fata",
+      "parfum ieftin original",
+      "reduceri serum"
+    ],
+    "sport": [
+      "reduceri echipament sport",
+      "reduceri bicicleta",
+      "reduceri adidasi",
+      "reduceri fitness",
+      "reduceri camping"
+    ],
+    "casa": [
+      "reduceri mobilier",
+      "reduceri electrocasnice",
+      "reduceri decoratiuni",
+      "reduceri aspirator robot",
+      "reduceri robot bucatarie"
+    ],
+    "farmacie": [
+      "reduceri vitamine",
+      "reduceri suplimente",
+      "reduceri omega 3",
+      "reduceri vitamina d",
+      "reduceri probiotice"
+    ]
+  },
+  "long_tail_templates": [
+    "reduceri {magazin} {luna} {an}",
+    "cod reducere {magazin} {luna} {an}",
+    "oferte {categorie} {luna} {an}",
+    "cel mai mic pret {produs}",
+    "{produs} reducere {procent}%",
+    "unde cumpar ieftin {produs}",
+    "{magazin} promotii {an}"
+  ],
+  "target_pozitii": {
+    "top_1": ["ghidulreducerilor reduceri", "ghidul reducerilor ro"],
+    "top_3": ["reduceri online romania", "coduri reducere romania", "oferte azi romania"],
+    "top_10": ["reduceri emag azi", "cod reducere fashiondays", "reduceri notino"]
+  }
+}

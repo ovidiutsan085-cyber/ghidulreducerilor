@@ -1,0 +1,134 @@
+{
+  "timezone": "Europe/Bucharest",
+  "tasks": [
+    {
+      "id": "morning_scrape",
+      "name": "Scanare completă dimineață",
+      "cron_utc": "0 4 * * *",
+      "cron_ro": "06:00",
+      "script": "scripts/daily_pipeline.py",
+      "args": ["--mode", "full"],
+      "description": "Scraping complet + validare + publicare oferte noi",
+      "activ": true,
+      "timeout_minute": 60
+    },
+    {
+      "id": "newsletter_daily",
+      "name": "Newsletter zilnic",
+      "cron_utc": "0 6 * * *",
+      "cron_ro": "08:00",
+      "script": "scripts/newsletter.py",
+      "args": ["--type", "daily"],
+      "description": "Generare și trimitere newsletter cu Top 10 reduceri",
+      "activ": true,
+      "timeout_minute": 15
+    },
+    {
+      "id": "social_morning",
+      "name": "Postări social media dimineață",
+      "cron_utc": "0 7 * * *",
+      "cron_ro": "09:00",
+      "script": "scripts/social_media_poster.py",
+      "args": ["--session", "morning"],
+      "description": "Postare top deals pe toate platformele",
+      "activ": true,
+      "timeout_minute": 10
+    },
+    {
+      "id": "midday_scrape",
+      "name": "Scanare flash sales prânz",
+      "cron_utc": "0 10 * * *",
+      "cron_ro": "12:00",
+      "script": "scripts/scraper.py",
+      "args": ["--mode", "flash"],
+      "description": "Detectare flash sales și oferte noi de prânz",
+      "activ": true,
+      "timeout_minute": 30
+    },
+    {
+      "id": "social_afternoon",
+      "name": "Postări social media după-amiază",
+      "cron_utc": "0 13 * * *",
+      "cron_ro": "15:00",
+      "script": "scripts/social_media_poster.py",
+      "args": ["--session", "afternoon"],
+      "description": "Postare oferte după-amiază",
+      "activ": true,
+      "timeout_minute": 10
+    },
+    {
+      "id": "evening_scrape",
+      "name": "Scanare seară",
+      "cron_utc": "0 16 * * *",
+      "cron_ro": "18:00",
+      "script": "scripts/scraper.py",
+      "args": ["--mode", "evening"],
+      "description": "Scanare seară + pregătire conținut pentru ziua următoare",
+      "activ": true,
+      "timeout_minute": 30
+    },
+    {
+      "id": "social_evening",
+      "name": "Postări social media seară",
+      "cron_utc": "0 18 * * *",
+      "cron_ro": "20:00",
+      "script": "scripts/social_media_poster.py",
+      "args": ["--session", "evening"],
+      "description": "Postare oferte seară/noapte",
+      "activ": true,
+      "timeout_minute": 10
+    },
+    {
+      "id": "daily_report",
+      "name": "Raport zilnic",
+      "cron_utc": "0 20 * * *",
+      "cron_ro": "22:00",
+      "script": "scripts/report_daily.py",
+      "description": "Generare raport complet + analiză performanță",
+      "activ": true,
+      "timeout_minute": 15
+    },
+    {
+      "id": "link_checker",
+      "name": "Verificare link-uri affiliate",
+      "cron_utc": "0 20 * * *",
+      "cron_ro": "22:00",
+      "script": "scripts/link_checker.py",
+      "description": "Verificare link-uri sparte + raport erori",
+      "activ": true,
+      "timeout_minute": 20
+    },
+    {
+      "id": "midnight_cleanup",
+      "name": "Cleanup și backup noapte",
+      "cron_utc": "0 22 * * *",
+      "cron_ro": "00:00",
+      "script": "scripts/daily_pipeline.py",
+      "args": ["--mode", "cleanup"],
+      "description": "Arhivare oferte expirate + backup date",
+      "activ": true,
+      "timeout_minute": 15
+    },
+    {
+      "id": "seo_audit_weekly",
+      "name": "Audit SEO săptămânal",
+      "cron_utc": "0 5 * * 1",
+      "cron_ro": "Luni 07:00",
+      "script": "scripts/seo_audit.py",
+      "description": "Audit SEO complet - keywords, viteza, erori",
+      "activ": true,
+      "timeout_minute": 30
+    },
+    {
+      "id": "newsletter_weekly",
+      "name": "Raport săptămânal reduceri",
+      "cron_utc": "0 7 * * 5",
+      "cron_ro": "Vineri 09:00",
+      "script": "scripts/newsletter.py",
+      "args": ["--type", "weekly"],
+      "description": "Newsletter cu rezumatul săptămânii",
+      "activ": true,
+      "timeout_minute": 15
+    }
+  ]
+}
