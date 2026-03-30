@@ -7,10 +7,26 @@
     "pret_original": 3499.99,
     "pret_redus": 2499.99,
     "procent_reducere": 29,
-    "link_afiliat": "https://l.profitshare.ro/l/15487990",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15487990",
     "categorie": "electronice",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Samsung Galaxy S24 FE 128GB 5G",
+    "store": "emag",
+    "price": 2499.99,
+    "originalPrice": 3499.99,
+    "discount_percent": 29,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15487990",
+    "url": "https://l.profitshare.ro/l/15487990",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-002",
@@ -20,10 +36,26 @@
     "pret_original": 2999,
     "pret_redus": 2199,
     "procent_reducere": 27,
-    "link_afiliat": "https://l.profitshare.ro/l/15487991",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15487991",
     "categorie": "electronice",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Laptop Lenovo IdeaPad Slim 3 15.6\" Ryzen 5 16GB 512GB SSD",
+    "store": "emag",
+    "price": 2199,
+    "originalPrice": 2999,
+    "discount_percent": 27,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15487991",
+    "url": "https://l.profitshare.ro/l/15487991",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-003",
@@ -33,10 +65,26 @@
     "pret_original": 2799,
     "pret_redus": 1899,
     "procent_reducere": 32,
-    "link_afiliat": "https://l.profitshare.ro/l/15487998",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15487998",
     "categorie": "electronice",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Televizor Samsung Crystal UHD 55\" 4K Smart TV 2025",
+    "store": "emag",
+    "price": 1899,
+    "originalPrice": 2799,
+    "discount_percent": 32,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15487998",
+    "url": "https://l.profitshare.ro/l/15487998",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-004",
@@ -46,10 +94,26 @@
     "pret_original": 2299,
     "pret_redus": 1549,
     "procent_reducere": 33,
-    "link_afiliat": "https://l.profitshare.ro/l/15488042",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488042",
     "categorie": "casa",
     "data_adaugare": "2026-03-25",
-    "activ": true
+    "activ": true,
+    "title": "Masina de spalat Whirlpool FreshCare+ 8kg 1200RPM",
+    "store": "emag",
+    "price": 1549,
+    "originalPrice": 2299,
+    "discount_percent": 33,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488042",
+    "url": "https://l.profitshare.ro/l/15488042",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-25",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-005",
@@ -59,10 +123,26 @@
     "pret_original": 2599,
     "pret_redus": 1799,
     "procent_reducere": 31,
-    "link_afiliat": "https://l.profitshare.ro/l/15488046",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488046",
     "categorie": "casa",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Frigider Samsung No Frost 302L Clasa E",
+    "store": "emag",
+    "price": 1799,
+    "originalPrice": 2599,
+    "discount_percent": 31,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488046",
+    "url": "https://l.profitshare.ro/l/15488046",
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-006",
@@ -72,10 +152,26 @@
     "pret_original": 1299,
     "pret_redus": 899,
     "procent_reducere": 31,
-    "link_afiliat": "https://l.profitshare.ro/l/15488052",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488052",
     "categorie": "electronice",
     "data_adaugare": "2026-03-25",
-    "activ": true
+    "activ": true,
+    "title": "Apple AirPods Pro 2 USB-C cu MagSafe",
+    "store": "emag",
+    "price": 899,
+    "originalPrice": 1299,
+    "discount_percent": 31,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488052",
+    "url": "https://l.profitshare.ro/l/15488052",
+    "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-25",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-007",
@@ -85,10 +181,26 @@
     "pret_original": 1899,
     "pret_redus": 1199,
     "procent_reducere": 37,
-    "link_afiliat": "https://l.profitshare.ro/l/15488054",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488054",
     "categorie": "casa",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Aspirator robot Xiaomi Robot Vacuum S10+ LDS",
+    "store": "emag",
+    "price": 1199,
+    "originalPrice": 1899,
+    "discount_percent": 37,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488054",
+    "url": "https://l.profitshare.ro/l/15488054",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-008",
@@ -98,10 +210,26 @@
     "pret_original": 2499,
     "pret_redus": 1699,
     "procent_reducere": 32,
-    "link_afiliat": "https://l.profitshare.ro/l/15488058",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488058",
     "categorie": "casa",
     "data_adaugare": "2026-03-24",
-    "activ": true
+    "activ": true,
+    "title": "Espressor automat Philips Series 2200 LatteGo",
+    "store": "emag",
+    "price": 1699,
+    "originalPrice": 2499,
+    "discount_percent": 32,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488058",
+    "url": "https://l.profitshare.ro/l/15488058",
+    "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-24",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-009",
@@ -111,10 +239,26 @@
     "pret_original": 2299,
     "pret_redus": 1799,
     "procent_reducere": 22,
-    "link_afiliat": "https://l.profitshare.ro/l/15488047",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488047",
     "categorie": "electronice",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Consola Sony PlayStation 5 Slim Digital Edition",
+    "store": "emag",
+    "price": 1799,
+    "originalPrice": 2299,
+    "discount_percent": 22,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488047",
+    "url": "https://l.profitshare.ro/l/15488047",
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-010",
@@ -124,10 +268,26 @@
     "pret_original": 699,
     "pret_redus": 399,
     "procent_reducere": 43,
-    "link_afiliat": "https://l.profitshare.ro/l/15488059",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488059",
     "categorie": "fashion",
     "data_adaugare": "2026-03-25",
-    "activ": true
+    "activ": true,
+    "title": "Sneakers Nike Air Max 270 React Barbati",
+    "store": "emag",
+    "price": 399,
+    "originalPrice": 699,
+    "discount_percent": 43,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488059",
+    "url": "https://l.profitshare.ro/l/15488059",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-25",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-011",
@@ -137,10 +297,26 @@
     "pret_original": 1499,
     "pret_redus": 899,
     "procent_reducere": 40,
-    "link_afiliat": "https://l.profitshare.ro/l/15487993",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15487993",
     "categorie": "electronice",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Ceas Smartwatch Samsung Galaxy Watch 6 44mm",
+    "store": "emag",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount_percent": 40,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15487993",
+    "url": "https://l.profitshare.ro/l/15487993",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "emag-012",
@@ -150,10 +326,26 @@
     "pret_original": 2199,
     "pret_redus": 1499,
     "procent_reducere": 32,
-    "link_afiliat": "https://l.profitshare.ro/l/15487995",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15487995",
     "categorie": "casa",
     "data_adaugare": "2026-03-26",
-    "activ": true
+    "activ": true,
+    "title": "Aer conditionat Midea Xtreme Save 12000 BTU Wi-Fi",
+    "store": "emag",
+    "price": 1499,
+    "originalPrice": 2199,
+    "discount_percent": 32,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15487995",
+    "url": "https://l.profitshare.ro/l/15487995",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-26",
+    "magazine_key": "emag"
   },
   {
     "id": "fashion-days-001",
@@ -163,10 +355,26 @@
     "pret_original": 899,
     "pret_redus": 449,
     "procent_reducere": 50,
-    "link_afiliat": "https://l.profitshare.ro/l/15488194",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488194",
     "categorie": "fashion",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Geaca Nike Midweight Puffer pentru barbati",
+    "store": "fashion-days",
+    "price": 449,
+    "originalPrice": 899,
+    "discount_percent": 50,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488194",
+    "url": "https://l.profitshare.ro/l/15488194",
+    "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fashion-days"
   },
   {
     "id": "fashion-days-002",
@@ -176,10 +384,26 @@
     "pret_original": 799,
     "pret_redus": 479,
     "procent_reducere": 40,
-    "link_afiliat": "https://l.profitshare.ro/l/15488198",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488198",
     "categorie": "fashion",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Pantofi alergare Adidas Ultraboost 22",
+    "store": "fashion-days",
+    "price": 479,
+    "originalPrice": 799,
+    "discount_percent": 40,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488198",
+    "url": "https://l.profitshare.ro/l/15488198",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fashion-days"
   },
   {
     "id": "fashion-days-003",
@@ -189,10 +413,26 @@
     "pret_original": 1399,
     "pret_redus": 699,
     "procent_reducere": 50,
-    "link_afiliat": "https://l.profitshare.ro/l/15488206",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488206",
     "categorie": "fashion",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Ceas automatic Fossil cu mecanism vizibil BQ2425",
+    "store": "fashion-days",
+    "price": 699,
+    "originalPrice": 1399,
+    "discount_percent": 50,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488206",
+    "url": "https://l.profitshare.ro/l/15488206",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fashion-days"
   },
   {
     "id": "fashion-days-004",
@@ -202,10 +442,26 @@
     "pret_original": 299,
     "pret_redus": 149,
     "procent_reducere": 50,
-    "link_afiliat": "https://l.profitshare.ro/l/15488209",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488209",
     "categorie": "fashion",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Rochie maxi cu talie Empire Vero Moda",
+    "store": "fashion-days",
+    "price": 149,
+    "originalPrice": 299,
+    "discount_percent": 50,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488209",
+    "url": "https://l.profitshare.ro/l/15488209",
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fashion-days"
   },
   {
     "id": "vexio-001",
@@ -215,10 +471,26 @@
     "pret_original": 7644.99,
     "pret_redus": 5999,
     "procent_reducere": 22,
-    "link_afiliat": "https://l.profitshare.ro/l/15488215",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488215",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Laptop ASUS Vivobook S16 OLED Core Ultra 7 32GB 1TB SSD",
+    "store": "vexio",
+    "price": 5999,
+    "originalPrice": 7644.99,
+    "discount_percent": 22,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488215",
+    "url": "https://l.profitshare.ro/l/15488215",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "vexio"
   },
   {
     "id": "vexio-002",
@@ -228,10 +500,26 @@
     "pret_original": 1258.99,
     "pret_redus": 899,
     "procent_reducere": 29,
-    "link_afiliat": "https://l.profitshare.ro/l/15488216",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488216",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Monitor Dell P2725HE 27\" Full HD USB-C",
+    "store": "vexio",
+    "price": 899,
+    "originalPrice": 1258.99,
+    "discount_percent": 29,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488216",
+    "url": "https://l.profitshare.ro/l/15488216",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "vexio"
   },
   {
     "id": "vexio-003",
@@ -241,10 +529,26 @@
     "pret_original": 5082.99,
     "pret_redus": 4299,
     "procent_reducere": 24,
-    "link_afiliat": "https://l.profitshare.ro/l/15488218",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488218",
     "categorie": "electronice",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Samsung Galaxy S25 Ultra 256GB 12GB RAM 5G",
+    "store": "vexio",
+    "price": 4299,
+    "originalPrice": 5082.99,
+    "discount_percent": 24,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488218",
+    "url": "https://l.profitshare.ro/l/15488218",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "vexio"
   },
   {
     "id": "vexio-004",
@@ -254,10 +558,26 @@
     "pret_original": 1338.99,
     "pret_redus": 999,
     "procent_reducere": 25,
-    "link_afiliat": "https://l.profitshare.ro/l/15488219",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488219",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Imprimanta HP Color LaserJet Pro 3202dw Wi-Fi Duplex",
+    "store": "vexio",
+    "price": 999,
+    "originalPrice": 1338.99,
+    "discount_percent": 25,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488219",
+    "url": "https://l.profitshare.ro/l/15488219",
+    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "vexio"
   },
   {
     "id": "libris-001",
@@ -267,10 +587,26 @@
     "pret_original": 79,
     "pret_redus": 49,
     "procent_reducere": 38,
-    "link_afiliat": "https://l.profitshare.ro/l/15488221",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488221",
     "categorie": "carti",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Exhalation - Ted Chiang (bestseller SF)",
+    "store": "libris",
+    "price": 49,
+    "originalPrice": 79,
+    "discount_percent": 38,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488221",
+    "url": "https://l.profitshare.ro/l/15488221",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop",
+    "categories": [
+      "carti"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "libris"
   },
   {
     "id": "libris-002",
@@ -280,10 +616,26 @@
     "pret_original": 499,
     "pret_redus": 299,
     "procent_reducere": 40,
-    "link_afiliat": "https://l.profitshare.ro/l/15488223",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488223",
     "categorie": "carti",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Pachet seria Harry Potter - cufar de colectie J.K. Rowling",
+    "store": "libris",
+    "price": 299,
+    "originalPrice": 499,
+    "discount_percent": 40,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488223",
+    "url": "https://l.profitshare.ro/l/15488223",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&h=400&fit=crop",
+    "categories": [
+      "carti"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "libris"
   },
   {
     "id": "libris-003",
@@ -293,10 +645,26 @@
     "pret_original": 59,
     "pret_redus": 35,
     "procent_reducere": 41,
-    "link_afiliat": "https://l.profitshare.ro/l/15488224",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488224",
     "categorie": "carti",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Atomic Habits - James Clear (editie romana)",
+    "store": "libris",
+    "price": 35,
+    "originalPrice": 59,
+    "discount_percent": 41,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488224",
+    "url": "https://l.profitshare.ro/l/15488224",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=400&fit=crop",
+    "categories": [
+      "carti"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "libris"
   },
   {
     "id": "libris-004",
@@ -306,10 +674,26 @@
     "pret_original": 49,
     "pret_redus": 29,
     "procent_reducere": 41,
-    "link_afiliat": "https://l.profitshare.ro/l/15488225",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488225",
     "categorie": "carti",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Forta gandirii pozitive - Norman Vincent Peale",
+    "store": "libris",
+    "price": 29,
+    "originalPrice": 49,
+    "discount_percent": 41,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488225",
+    "url": "https://l.profitshare.ro/l/15488225",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=400&fit=crop",
+    "categories": [
+      "carti"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "libris"
   },
   {
     "id": "fornello-001",
@@ -319,10 +703,26 @@
     "pret_original": 3499,
     "pret_redus": 2499,
     "procent_reducere": 29,
-    "link_afiliat": "https://l.profitshare.ro/l/15488226",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488226",
     "categorie": "casa",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Semineu pe lemne Fornello Roma G Ivory 11-13 kW cu plita si cuptor",
+    "store": "fornello",
+    "price": 2499,
+    "originalPrice": 3499,
+    "discount_percent": 29,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488226",
+    "url": "https://l.profitshare.ro/l/15488226",
+    "image": "https://images.unsplash.com/photo-1543076499-a6133cb932fd?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fornello"
   },
   {
     "id": "fornello-002",
@@ -332,10 +732,26 @@
     "pret_original": 4999,
     "pret_redus": 3499,
     "procent_reducere": 30,
-    "link_afiliat": "https://l.profitshare.ro/l/15488229",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488229",
     "categorie": "casa",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Soba pe peleti Fornello Sophia Premium 11 kW cu aprindere electrica",
+    "store": "fornello",
+    "price": 3499,
+    "originalPrice": 4999,
+    "discount_percent": 30,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488229",
+    "url": "https://l.profitshare.ro/l/15488229",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fornello"
   },
   {
     "id": "fornello-003",
@@ -345,10 +761,26 @@
     "pret_original": 2999,
     "pret_redus": 2199,
     "procent_reducere": 27,
-    "link_afiliat": "https://l.profitshare.ro/l/15488231",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488231",
     "categorie": "casa",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Cos de fum inox Fornello dublu perete 8m diametru 120mm",
+    "store": "fornello",
+    "price": 2199,
+    "originalPrice": 2999,
+    "discount_percent": 27,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488231",
+    "url": "https://l.profitshare.ro/l/15488231",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fornello"
   },
   {
     "id": "fornello-004",
@@ -358,10 +790,26 @@
     "pret_original": 1299,
     "pret_redus": 849,
     "procent_reducere": 35,
-    "link_afiliat": "https://l.profitshare.ro/l/15488232",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488232",
     "categorie": "casa",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Gratar VERA BBQ pe peleti portabil cu plita din fonta",
+    "store": "fornello",
+    "price": 849,
+    "originalPrice": 1299,
+    "discount_percent": 35,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488232",
+    "url": "https://l.profitshare.ro/l/15488232",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=400&fit=crop",
+    "categories": [
+      "casa"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "fornello"
   },
   {
     "id": "forit-001",
@@ -371,10 +819,26 @@
     "pret_original": 3299,
     "pret_redus": 2399,
     "procent_reducere": 27,
-    "link_afiliat": "https://l.profitshare.ro/l/15488297",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488297",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Laptop Lenovo ThinkPad E14 Gen 5 i5-1335U 14\" Touch 16GB 512GB SSD",
+    "store": "forit",
+    "price": 2399,
+    "originalPrice": 3299,
+    "discount_percent": 27,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488297",
+    "url": "https://l.profitshare.ro/l/15488297",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "forit"
   },
   {
     "id": "forit-002",
@@ -384,10 +848,26 @@
     "pret_original": 6999,
     "pret_redus": 5499,
     "procent_reducere": 21,
-    "link_afiliat": "https://l.profitshare.ro/l/15488298",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488298",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Laptop Apple MacBook Air 13\" M5 16GB 512GB SSD Silver",
+    "store": "forit",
+    "price": 5499,
+    "originalPrice": 6999,
+    "discount_percent": 21,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488298",
+    "url": "https://l.profitshare.ro/l/15488298",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "forit"
   },
   {
     "id": "forit-003",
@@ -397,10 +877,26 @@
     "pret_original": 8999,
     "pret_redus": 7499,
     "procent_reducere": 22,
-    "link_afiliat": "https://l.profitshare.ro/l/15488299",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488299",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Laptop Apple MacBook Air 15\" M5 16GB 1TB SSD Midnight",
+    "store": "forit",
+    "price": 7499,
+    "originalPrice": 8999,
+    "discount_percent": 22,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488299",
+    "url": "https://l.profitshare.ro/l/15488299",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "forit"
   },
   {
     "id": "forit-004",
@@ -410,10 +906,26 @@
     "pret_original": 9499,
     "pret_redus": 7299,
     "procent_reducere": 23,
-    "link_afiliat": "https://l.profitshare.ro/l/15488306",
+    "link_afiliat": "https://ghidulreducerilor.ro/out/15488306",
     "categorie": "IT",
     "data_adaugare": "2026-03-28",
-    "activ": true
+    "activ": true,
+    "title": "Laptop Lenovo ThinkPad X9-15 Gen 1 Ultra 7 15.3\" 2.8K Touch 32GB 1TB",
+    "store": "forit",
+    "price": 7299,
+    "originalPrice": 9499,
+    "discount_percent": 23,
+    "affiliate_url": "https://ghidulreducerilor.ro/out/15488306",
+    "url": "https://l.profitshare.ro/l/15488306",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-28",
+    "magazine_key": "forit"
   },
   {
     "id": "notino-001",
@@ -426,7 +938,23 @@
     "link_afiliat": "https://www.notino.ro/chanel/n-5-apa-de-parfum-pentru-femei/",
     "categorie": "cosmetice",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Parfum Chanel N5 Eau de Parfum 100ml",
+    "store": "notino",
+    "price": 499,
+    "originalPrice": 699,
+    "discount_percent": 29,
+    "affiliate_url": "https://www.notino.ro/chanel/n-5-apa-de-parfum-pentru-femei/",
+    "url": "https://www.notino.ro/chanel/n-5-apa-de-parfum-pentru-femei/",
+    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=400&h=400&fit=crop",
+    "categories": [
+      "cosmetice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "notino"
   },
   {
     "id": "notino-002",
@@ -439,7 +967,23 @@
     "link_afiliat": "https://www.notino.ro/la-roche-posay/",
     "categorie": "cosmetice",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Set ingrijire ten La Roche-Posay Effaclar",
+    "store": "notino",
+    "price": 189,
+    "originalPrice": 289,
+    "discount_percent": 35,
+    "affiliate_url": "https://www.notino.ro/la-roche-posay/",
+    "url": "https://www.notino.ro/la-roche-posay/",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop",
+    "categories": [
+      "cosmetice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "notino"
   },
   {
     "id": "notino-003",
@@ -452,7 +996,23 @@
     "link_afiliat": "https://www.notino.ro/dior/sauvage-apa-de-toaleta-pentru-barbati/",
     "categorie": "cosmetice",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Parfum Dior Sauvage Eau de Toilette 200ml",
+    "store": "notino",
+    "price": 599,
+    "originalPrice": 849,
+    "discount_percent": 29,
+    "affiliate_url": "https://www.notino.ro/dior/sauvage-apa-de-toaleta-pentru-barbati/",
+    "url": "https://www.notino.ro/dior/sauvage-apa-de-toaleta-pentru-barbati/",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop",
+    "categories": [
+      "cosmetice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "notino"
   },
   {
     "id": "answear-001",
@@ -465,7 +1025,23 @@
     "link_afiliat": "https://www.answear.ro/sport/nike/",
     "categorie": "fashion",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Nike Air Max 270 React Alb/Negru Barbati",
+    "store": "answear",
+    "price": 399,
+    "originalPrice": 699,
+    "discount_percent": 43,
+    "affiliate_url": "https://www.answear.ro/sport/nike/",
+    "url": "https://www.answear.ro/sport/nike/",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "answear"
   },
   {
     "id": "answear-002",
@@ -478,7 +1054,23 @@
     "link_afiliat": "https://www.answear.ro/calvin-klein/",
     "categorie": "fashion",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Geaca Calvin Klein Slim Fit Femei",
+    "store": "answear",
+    "price": 549,
+    "originalPrice": 899,
+    "discount_percent": 39,
+    "affiliate_url": "https://www.answear.ro/calvin-klein/",
+    "url": "https://www.answear.ro/calvin-klein/",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop",
+    "categories": [
+      "fashion"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "answear"
   },
   {
     "id": "catena-001",
@@ -491,7 +1083,23 @@
     "link_afiliat": "https://www.catena.ro/suplimente-alimentare/vitamine/vitamina-d/",
     "categorie": "sanatate",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Vitamina D3 4000 UI + K2 90 capsule",
+    "store": "catena",
+    "price": 59,
+    "originalPrice": 89,
+    "discount_percent": 34,
+    "affiliate_url": "https://www.catena.ro/suplimente-alimentare/vitamine/vitamina-d/",
+    "url": "https://www.catena.ro/suplimente-alimentare/vitamine/vitamina-d/",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop",
+    "categories": [
+      "sanatate"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "catena"
   },
   {
     "id": "catena-002",
@@ -504,7 +1112,23 @@
     "link_afiliat": "https://www.catena.ro/suplimente-alimentare/acizi-grasi/omega-3/",
     "categorie": "sanatate",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Omega 3 Fish Oil 1000mg 180 capsule",
+    "store": "catena",
+    "price": 79,
+    "originalPrice": 129,
+    "discount_percent": 39,
+    "affiliate_url": "https://www.catena.ro/suplimente-alimentare/acizi-grasi/omega-3/",
+    "url": "https://www.catena.ro/suplimente-alimentare/acizi-grasi/omega-3/",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
+    "categories": [
+      "sanatate"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "catena"
   },
   {
     "id": "catena-003",
@@ -517,7 +1141,23 @@
     "link_afiliat": "https://www.catena.ro/cosmetice/",
     "categorie": "cosmetice",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Crema antirid Garnier Hyaluronic Aloe 50ml",
+    "store": "catena",
+    "price": 39,
+    "originalPrice": 59,
+    "discount_percent": 34,
+    "affiliate_url": "https://www.catena.ro/cosmetice/",
+    "url": "https://www.catena.ro/cosmetice/",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop",
+    "categories": [
+      "cosmetice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "catena"
   },
   {
     "id": "decathlon-001",
@@ -530,7 +1170,23 @@
     "link_afiliat": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-ciclism/c2-biciclete-electrice/",
     "categorie": "sport",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Bicicleta Electrica Riverside 500E 28\"",
+    "store": "decathlon",
+    "price": 3499,
+    "originalPrice": 4999,
+    "discount_percent": 30,
+    "affiliate_url": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-ciclism/c2-biciclete-electrice/",
+    "url": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-ciclism/c2-biciclete-electrice/",
+    "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=400&fit=crop",
+    "categories": [
+      "sport"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "decathlon"
   },
   {
     "id": "decathlon-002",
@@ -543,7 +1199,23 @@
     "link_afiliat": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-camping-trekking/c2-corturi/",
     "categorie": "sport",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Cort camping Quechua 2 Seconds 3 persoane",
+    "store": "decathlon",
+    "price": 399,
+    "originalPrice": 599,
+    "discount_percent": 33,
+    "affiliate_url": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-camping-trekking/c2-corturi/",
+    "url": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-camping-trekking/c2-corturi/",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop",
+    "categories": [
+      "sport"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "decathlon"
   },
   {
     "id": "decathlon-003",
@@ -556,7 +1228,23 @@
     "link_afiliat": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-alergare/c2-incaltaminte-alergare/",
     "categorie": "sport",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Pantofi alergare Kiprun KD900X Barbati",
+    "store": "decathlon",
+    "price": 299,
+    "originalPrice": 499,
+    "discount_percent": 40,
+    "affiliate_url": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-alergare/c2-incaltaminte-alergare/",
+    "url": "https://www.decathlon.ro/browse/c0-sporturile-mele/c1-alergare/c2-incaltaminte-alergare/",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "categories": [
+      "sport"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "decathlon"
   },
   {
     "id": "cel-001",
@@ -569,7 +1257,23 @@
     "link_afiliat": "https://www.cel.ro/telefoane-mobile/apple/",
     "categorie": "electronice",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "iPhone 15 128GB Black Sigilat",
+    "store": "cel",
+    "price": 3599,
+    "originalPrice": 4599,
+    "discount_percent": 22,
+    "affiliate_url": "https://www.cel.ro/telefoane-mobile/apple/",
+    "url": "https://www.cel.ro/telefoane-mobile/apple/",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "cel"
   },
   {
     "id": "cel-002",
@@ -582,7 +1286,23 @@
     "link_afiliat": "https://www.cel.ro/tablete/samsung/",
     "categorie": "electronice",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Tableta Samsung Galaxy Tab A9+ 11 5G 128GB",
+    "store": "cel",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount_percent": 33,
+    "affiliate_url": "https://www.cel.ro/tablete/samsung/",
+    "url": "https://www.cel.ro/tablete/samsung/",
+    "image": "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=400&h=400&fit=crop",
+    "categories": [
+      "electronice"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "cel"
   },
   {
     "id": "pcgarage-001",
@@ -595,7 +1315,23 @@
     "link_afiliat": "https://www.pcgarage.ro/placi-video/",
     "categorie": "IT",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Placa Video MSI GeForce RTX 4060 Gaming X 8GB",
+    "store": "pcgarage",
+    "price": 1699,
+    "originalPrice": 2199,
+    "discount_percent": 23,
+    "affiliate_url": "https://www.pcgarage.ro/placi-video/",
+    "url": "https://www.pcgarage.ro/placi-video/",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "pcgarage"
   },
   {
     "id": "pcgarage-002",
@@ -608,6 +1344,22 @@
     "link_afiliat": "https://www.pcgarage.ro/monitoare/",
     "categorie": "IT",
     "data_adaugare": "2026-03-29",
-    "activ": true
+    "activ": true,
+    "title": "Monitor Gaming Samsung Odyssey G5 27\" 165Hz WQHD",
+    "store": "pcgarage",
+    "price": 999,
+    "originalPrice": 1499,
+    "discount_percent": 33,
+    "affiliate_url": "https://www.pcgarage.ro/monitoare/",
+    "url": "https://www.pcgarage.ro/monitoare/",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+    "categories": [
+      "IT"
+    ],
+    "is_active": true,
+    "score": 5,
+    "in_stock": true,
+    "scraped_at": "2026-03-29",
+    "magazine_key": "pcgarage"
   }
 ]
