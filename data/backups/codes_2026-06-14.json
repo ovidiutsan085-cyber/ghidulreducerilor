@@ -1,0 +1,200 @@
+[
+  {
+    "id": "code-emag-001",
+    "magazin": "emag",
+    "cod": "SMART200",
+    "descriere": "200 lei reducere la smartphone-uri peste 1500 lei",
+    "valoare": "200 lei",
+    "tip": "fix",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://l.profitshare.ro/l/15487990",
+    "verificat": true
+  },
+  {
+    "id": "code-emag-002",
+    "magazin": "emag",
+    "cod": "RABLA150",
+    "descriere": "Card cadou 150 lei la predarea unui electrocasnic vechi (Rabla Electrocasnice)",
+    "valoare": "150 lei card cadou",
+    "tip": "fix",
+    "data_expirare": "2026-10-31",
+    "link_afiliat": "https://l.profitshare.ro/l/15487990",
+    "verificat": true
+  },
+  {
+    "id": "code-fd-001",
+    "magazin": "fashion-days",
+    "cod": "STYLE25",
+    "descriere": "25% extra reducere la articolele deja reduse",
+    "valoare": "25%",
+    "tip": "procent",
+    "data_expirare": "2026-04-10",
+    "link_afiliat": "https://l.profitshare.ro/l/15516991",
+    "verificat": true
+  },
+  {
+    "id": "code-fd-002",
+    "magazin": "fashion-days",
+    "cod": "NEWSEASON30",
+    "descriere": "30% reducere la noua colectie de primavara",
+    "valoare": "30%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://l.profitshare.ro/l/15516991",
+    "verificat": true
+  },
+  {
+    "id": "code-vexio-001",
+    "magazin": "vexio",
+    "cod": "TECH10",
+    "descriere": "10% reducere la laptopuri si monitoare selectate",
+    "valoare": "10%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://l.profitshare.ro/l/15488175",
+    "verificat": true
+  },
+  {
+    "id": "code-libris-001",
+    "magazin": "libris",
+    "cod": "CARTE30",
+    "descriere": "30% reducere la carti din categoriile fictiune si non-fictiune",
+    "valoare": "30%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://l.profitshare.ro/l/15488177",
+    "verificat": true
+  },
+  {
+    "id": "code-libris-002",
+    "magazin": "libris",
+    "cod": "TRANSPORT0",
+    "descriere": "Transport gratuit la orice comanda peste 50 lei",
+    "valoare": "Transport gratuit",
+    "tip": "fix",
+    "data_expirare": "2026-12-31",
+    "link_afiliat": "https://l.profitshare.ro/l/15488177",
+    "verificat": true
+  },
+  {
+    "id": "code-fornello-001",
+    "magazin": "fornello",
+    "cod": "CALDURA10",
+    "descriere": "10% reducere la seminee si sobe pe lemne",
+    "valoare": "10%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://l.profitshare.ro/l/15488180",
+    "verificat": true
+  },
+  {
+    "id": "code-forit-001",
+    "magazin": "forit",
+    "cod": "LAPTOP10",
+    "descriere": "10% reducere la laptopuri Lenovo si Apple selectate",
+    "valoare": "10%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://l.profitshare.ro/l/15488296",
+    "verificat": true
+  },
+  {
+    "id": "code-notino-001",
+    "magazin": "notino",
+    "cod": "NOTINO15",
+    "descriere": "15% reducere la prima comanda Notino",
+    "valoare": "15%",
+    "tip": "procent",
+    "data_expirare": "2026-05-31",
+    "link_afiliat": "https://www.notino.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-notino-002",
+    "magazin": "notino",
+    "cod": "PARFUM10",
+    "descriere": "10% reducere la parfumuri peste 300 lei",
+    "valoare": "10%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://www.notino.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-answear-001",
+    "magazin": "answear",
+    "cod": "ANSWER20",
+    "descriere": "20% reducere la toate produsele Nike si Adidas",
+    "valoare": "20%",
+    "tip": "procent",
+    "data_expirare": "2026-04-15",
+    "link_afiliat": "https://www.answear.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-answear-002",
+    "magazin": "answear",
+    "cod": "PRIMAVARA30",
+    "descriere": "30% reducere la noua colectie de primavara",
+    "valoare": "30%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://www.answear.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-catena-001",
+    "magazin": "catena",
+    "cod": "SANATATE10",
+    "descriere": "10% reducere la suplimente alimentare",
+    "valoare": "10%",
+    "tip": "procent",
+    "data_expirare": "2026-05-31",
+    "link_afiliat": "https://www.catena.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-catena-002",
+    "magazin": "catena",
+    "cod": "TRANSPORT0",
+    "descriere": "Transport gratuit la comenzi peste 99 lei",
+    "valoare": "Transport gratuit",
+    "tip": "transport",
+    "data_expirare": "2026-06-30",
+    "link_afiliat": "https://www.catena.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-decathlon-001",
+    "magazin": "decathlon",
+    "cod": "SPORT15",
+    "descriere": "15% reducere la articole de ciclism",
+    "valoare": "15%",
+    "tip": "procent",
+    "data_expirare": "2026-04-30",
+    "link_afiliat": "https://www.decathlon.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-cel-001",
+    "magazin": "cel",
+    "cod": "CEL50",
+    "descriere": "50 lei reducere la comenzi peste 500 lei",
+    "valoare": "50 lei",
+    "tip": "fix",
+    "data_expirare": "2026-05-15",
+    "link_afiliat": "https://www.cel.ro",
+    "verificat": true
+  },
+  {
+    "id": "code-pcgarage-001",
+    "magazin": "pcgarage",
+    "cod": "GAMING10",
+    "descriere": "10% reducere la placi video si procesoare",
+    "valoare": "10%",
+    "tip": "procent",
+    "data_expirare": "2026-04-20",
+    "link_afiliat": "https://www.pcgarage.ro",
+    "verificat": true
+  }
+]
